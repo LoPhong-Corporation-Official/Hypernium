@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.hypernium.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["MinecraftRunTickMixin"],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hypernium",
+  "version": "${version}",
+  "name": "Hypernium",
+  "description": "Adaptive performance optimization framework: profiler, compatibility layer and adaptive controller for Minecraft Java Edition.",
+  "authors": [],
+  "license": "TBD",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hypernium.Hypernium"],
+    "client": ["com.hypernium.HyperniumClient"]
+  },
+  "mixins": ["hypernium.mixins.json", "hypernium.hooks.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
